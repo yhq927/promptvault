@@ -1,5 +1,5 @@
 {
   "framework": "vite",
-  "installCommand": "npx npm@9.8.1 install --legacy-peer-deps --registry=https://registry.npmjs.org",
+  "installCommand": "npm_config_registry=https://registry.npmjs.org npx npm@9.8.1 install --legacy-peer-deps",
   "buildCommand": "npm run build"
 }
