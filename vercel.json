@@ -1,5 +1,5 @@
 {
   "framework": "vite",
-  "installCommand": "npm install --legacy-peer-deps --max-retries=3",
+  "installCommand": "corepack enable && corepack prepare npm@9.8.1 --activate && npm install --legacy-peer-deps",
   "buildCommand": "npm run build"
 }
