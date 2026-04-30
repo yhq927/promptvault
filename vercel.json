@@ -1,5 +1,5 @@
 {
   "framework": "vite",
-  "installCommand": "corepack enable && corepack prepare npm@9.8.1 --activate && npm install --legacy-peer-deps",
+  "installCommand": "npx npm@9.8.1 install --legacy-peer-deps",
   "buildCommand": "npm run build"
 }
