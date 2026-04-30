@@ -1,5 +1,4 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install",
-  "buildCommand": "pnpm run build"
+  "packageManager": "pnpm"
 }
