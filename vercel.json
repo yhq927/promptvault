@@ -1,5 +1,5 @@
 {
   "framework": "vite",
-  "installCommand": "corepack enable && corepack prepare pnpm@8.15.0 --activate && pnpm install",
-  "buildCommand": "pnpm run build"
+  "installCommand": "npm install --legacy-peer-deps --max-retries=3",
+  "buildCommand": "npm run build"
 }
